@@ -297,7 +297,7 @@ static char *get_default_separator() {
     if (output_format == O_I3BAR)
         // anything besides the empty string indicates that the default separator should be used
         return "default";
-    return " | ";
+    return "  |||||  ";
 }
 
 int main(int argc, char *argv[]) {
